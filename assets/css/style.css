@@ -1,17 +1,39 @@
 body{
     scroll-behavior: smooth;
 }
-.navbar {
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-.hero{
-    height:100vh;
-    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+#about {
     display: flex;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    align-items: center;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;    /* Centers content vertically */
+    height: 60px;           /* Set a height for proper centering */
+    background-color: #f8f9fa; /* Optional: Add a background color */
+}
 
+.col-12 {
+    margin: 0; /* Reset margin if needed */
+    padding: 0; /* Reset padding if needed */
+}
 
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Ensure it spans the full width */
+}
+.section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section_header {
+    color: #007bff;
+}
+
+.fw-bold {
+    font-weight: 700; /* Replacing the deprecated class */
+}
+
+.fw-normal {
+    font-weight: 400; /* Replacing the deprecated class */
 }
