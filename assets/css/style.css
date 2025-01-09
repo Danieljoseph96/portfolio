@@ -37,3 +37,6 @@ body{
 .fw-normal {
     font-weight: 400; /* Replacing the deprecated class */
 }
+.sec{
+    border: red;
+}
